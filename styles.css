@@ -32,6 +32,10 @@ section>p{
     justify-content: center;
     align-content: center;
 }
+section>img{
+    max-width: 100%;
+  height: auto;
+}
 footer{
     background-color: #5a879f;
     list-style: none;
