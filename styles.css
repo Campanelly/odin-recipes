@@ -1,3 +1,40 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+header{
+    background-color: #5a879f;
+    color: #9ca8b4;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    background-color: #86a8ba;
+    
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    background-color: #86a8ba;
+    display: flex;
+    flex-direction: row-reverse;
+}
+section>p{
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    background-color: #5a879f;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
