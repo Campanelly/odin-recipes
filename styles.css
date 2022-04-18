@@ -10,45 +10,67 @@ header{
     background-color: #5a879f;
     color: #3d4751;
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.bienvenida{
+    display: flex;
     justify-content: center;
 }
-header>img{
+.bienvenida>img{
     width: 5em;
     height: 5em;
     margin: 16px;
+    max-width: 100%;
+    max-height: auto;
+    
 }
-header>h1{
+.bienvenida>h1{
     font-size: 5em;
     margin:24px 0 0 0;
 }
 header>p{
     font-size: 1.5em;
     justify-self: center;
-    margin: 24px 12px 24px 12px;
+    padding: 24px 12px 24px 12px;
 }
 
 nav{
     background-color: #86a8ba;
-    
+    color: #3d4751;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 36px;
+           
+}
+nav>p{
+    font-size: 3em;
+    width: 100%;
+    margin:0;
 }
 nav>ul{
     list-style: none;
-    font-size: 4em;
+    padding: 0;
+    font-size: 2em;
+}
+a{
+    
+    color: inherit;
 }
 
 section{
     background-color: #86a8ba;
     display: flex;
-    justify-content: space-around;
-    
+    flex-wrap: wrap;
 }
 
 section>img{
   max-width: 100%;
   height: auto;
   border-radius: 16px;
-  margin: 16px 0px 16px 0px;
+  margin: 16px 32px 16px 32px;
+  flex: 1 2 auto;
 }
 footer{
     background-color: #5a879f;
