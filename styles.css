@@ -15,19 +15,18 @@ header{
 }
 .bienvenida{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .bienvenida>img{
-    width: 5em;
-    height: 5em;
-    margin: 16px;
-    max-width: 100%;
-    max-height: auto;
     
+    margin: 16px;
+    height: 5%;
+    width: 10%;
+ 
 }
 .bienvenida>h1{
     font-size: 5em;
-    margin:24px 0 0 0;
+    margin:48px 0 0 0;
 }
 header>p{
     font-size: 1.5em;
@@ -66,8 +65,8 @@ section{
 }
 
 section>img{
-  max-width: 100%;
-  height: auto;
+  max-width: 50%;
+  height: 100%;
   border-radius: 16px;
   margin: 16px 32px 16px 32px;
   
